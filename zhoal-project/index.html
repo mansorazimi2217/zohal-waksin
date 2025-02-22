@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zohal Teams</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body dir="rtl">
+    <div class="container">
+      <div class="page-title">
+        <h1 class="title">محاسبه ضایعات دوز های واکسین</h1>
+      </div>
+
+      <form>
+        <label for="gived">گرفته شده</label>
+        <input required type="number" id="gived" />
+
+        <label for="acc">تصدیق شده</label>
+        <input required type="number" id="acc" />
+
+        <button class="btn" type="button" onclick="calculate()">
+          محاسبه کردن
+        </button>
+      </form>
+
+      <div class="res">
+        <h2 id="res">0%</h2>
+      </div>
+
+      <div class="creator">سازنده: بانو زحل عظیمی</div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
